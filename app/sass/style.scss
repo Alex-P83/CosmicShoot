@@ -264,7 +264,15 @@ p{
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
-
+    .forma{
+        &__wrapper{
+            flex-wrap: wrap;
+            input{
+                width: 400px;
+                margin:15px 0;
+            }
+        }
+    }
 } 
 
 // Medium devices (tablets, less than 992px)
@@ -295,11 +303,24 @@ p{
     .block-service{
         margin-bottom: 20px;
     }
+    .forma{
+        &__wrapper{
+            input{
+                width: 300px;
+            }
+        }
+    }    
 }
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-   
+    .forma{
+        &__wrapper{
+            input{
+                width: 250px;
+            }
+        }
+    }     
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -313,6 +334,23 @@ p{
                     margin:5px 0;
                 }
             }
+        }
+    }
+    .forma{
+        &__wrapper{
+            input{
+                width: 100%;
+            }
+        }
+    }     
+    .footer{
+        .menu{
+            &__list{
+                flex-direction: column;
+                li{
+                    margin:5px 0;
+                }
+            }            
         }
     }    
 }

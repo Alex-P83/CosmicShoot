@@ -222,6 +222,15 @@ p {
 .colapse-menu-button button {
   margin: 0 auto; }
 
+@media (max-width: 1199.98px) {
+  .forma__wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .forma__wrapper input {
+      width: 400px;
+      margin: 15px 0; } }
+
 @media (max-width: 991.98px) {
   .logo {
     text-align: center;
@@ -239,7 +248,13 @@ p {
     .about-us .wrap-btn a {
       margin: 0 auto; }
   .block-service {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .forma__wrapper input {
+    width: 300px; } }
+
+@media (max-width: 767.98px) {
+  .forma__wrapper input {
+    width: 250px; } }
 
 @media (max-width: 575.98px) {
   .header .menu {
@@ -249,4 +264,12 @@ p {
           -ms-flex-direction: column;
               flex-direction: column; }
       .header .menu__list li {
-        margin: 5px 0; } }
+        margin: 5px 0; }
+  .forma__wrapper input {
+    width: 100%; }
+  .footer .menu__list {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .footer .menu__list li {
+      margin: 5px 0; } }
