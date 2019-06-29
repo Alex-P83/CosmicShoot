@@ -143,7 +143,7 @@ p {
 
 .gallery__photo {
   display: inline-block;
-  margin: 15px 0; }
+  margin: 15px; }
   .gallery__photo img {
     max-width: 100%; }
 
@@ -222,6 +222,13 @@ p {
 .colapse-menu-button button {
   margin: 0 auto; }
 
+.grid {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.grid-item {
+  width: calc(100%/4); }
+
 @media (max-width: 1199.98px) {
   .forma__wrapper {
     -webkit-flex-wrap: wrap;
@@ -236,7 +243,8 @@ p {
     text-align: center;
     margin-bottom: 20px; }
   .about-us {
-    padding-top: 30px; }
+    padding-top: 30px;
+    padding-bottom: 100px; }
     .about-us__photo {
       text-align: center;
       margin-top: 0;
@@ -254,7 +262,9 @@ p {
 
 @media (max-width: 767.98px) {
   .forma__wrapper input {
-    width: 250px; } }
+    width: 250px; }
+  .grid-item {
+    width: 50%; } }
 
 @media (max-width: 575.98px) {
   .header .menu {

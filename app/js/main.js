@@ -46,4 +46,11 @@ $(window).resize(function(){
     if(wid > 570 && menu.is(':hidden')) {
         menu.removeAttr('style');
     } 
-});       
+});
+
+
+$('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+  percentPosition: true
+});
