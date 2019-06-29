@@ -89,7 +89,7 @@ p{
             margin:0;
             padding: 0;
             z-index: 2;
-            bottom: 50px;
+            bottom: 30px;
             left: 50%;
             transform: translateX(-50%);
             text-align: center;
@@ -150,7 +150,11 @@ p{
             font-weight: 700;
             color:#333;
             text-transform: uppercase;
-            text-decoration: none;                        
+            text-decoration: none;
+            transition: 0.2s;
+            &:hover{
+                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+            }                        
         }
     }
 }
@@ -232,7 +236,11 @@ p{
         font-weight: 700;
         color:#333;
         text-transform: uppercase;
-        outline: none;        
+        outline: none;
+        transition: 0.2s;
+        &:hover{
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+        }        
     }
 }
 
